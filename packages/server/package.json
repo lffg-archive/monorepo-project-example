@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "@proj/server",
+  "description": "Utilities for the project.",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "lffg",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "NODE_ENV=development nodemon --exec ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@proj/utils": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "nodemon": "^1.18.9",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2"
+  }
+}

@@ -5,7 +5,8 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "build:watch": "learn run build:watch"
+    "build:watch": "learn run build:watch",
+    "test": "lerna run test"
   },
   "devDependencies": {
     "lerna": "^3.8.0"
